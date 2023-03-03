@@ -5,6 +5,13 @@ html, body {
 canvas {
   display: block;
 }
+h1{
+  font-size: 300%;
+  font-family: "MyFont"; 
+  color:rgba(155, 68, 0);
+  margin-bottom: 10px;
+  
+}
 
 body{
   background: white;
@@ -17,3 +24,15 @@ main{
 #sketch-container{
   width: 100%;
 }
+.link{
+  display: inline-block; 
+  font-family: "MyFont";
+  margin-right: 100px; 
+  color:rgba(155, 68, 0);
+}
+@font-face {
+  font-family: MyFont; 
+  src: url(./HanChengWangShiLiXingShu.ttf);
+
+}
+

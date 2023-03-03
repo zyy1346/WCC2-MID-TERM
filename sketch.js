@@ -48,13 +48,16 @@ function setup() {
 
   textFont(myFont);
   textAlign(LEFT);
+  textSize(32);
   
   tint(255,100);
   image(myImage,0,0);
 
   
-  //link = createA("Choose This Verse");
+  //link = createA("https://jwang006.github.io/poetry-to-mood/","back to home page ");
   //link.position(width*0.6,height*0.85);
+  //link.textSize(32);
+  
 }
 
 function draw() {
@@ -101,13 +104,14 @@ function draw() {
   prototypeVersion.resize(width,height);
   image(prototypeVersion,0,0);
 
-  textSize(32);
-text('Save it', 1000, 700);
+textSize(32);
+text('Save it', 1200, 620);
 fill(	155, 68, 0);
 
 textSize(50);
-text('Your poetry postcard', 100, 100);
+text('Your poetry postcard', 60, 150);
 fill(	155, 68, 0);
+
 }
 
 function mousePressed() {
